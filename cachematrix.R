@@ -3,7 +3,7 @@
 ## This function creates a special "matrix" object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
-        ## It is assumes that x is a square invertible vector
+        ## It is assumed that x is a square invertible vector
         ## The function returns a list with functions to 
         ## 1. set the value of the list
         ## 2. get the value of the list
